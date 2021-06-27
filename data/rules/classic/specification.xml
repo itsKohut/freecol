@@ -111,10 +111,6 @@
     <goods-type id="model.goods.fish" is-farmed="true" storable="false"
                 stored-as="model.goods.food" is-food="true"
                 production-weight="5.0" />
-    <!--
-        <goods-type id="model.goods.meat" is-farmed="true" storable="false"
-        stored-as="model.goods.food" is-food="true" />
-    -->
     <goods-type id="model.goods.sugar" is-farmed="true"
                 new-world-goods="true" production-weight="2.5">
       <market initial-amount="1500" initial-price="2" price-difference="2" />
@@ -2218,10 +2214,6 @@
       <ability id="model.ability.canBeCaptured"
                value="true"/>
     </unit-type>
-    <!--
-        <unit-type id="model.unit.milkmaid" extends="colonist"
-        expert-production="model.goods.grain" />
-    -->
     <unit-type id="model.unit.revenger"
                offence="666" defence="666" movement="18" line-of-sight="3">
       <required-ability id="model.ability.undead"/>
